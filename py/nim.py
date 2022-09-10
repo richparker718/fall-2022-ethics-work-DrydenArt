@@ -11,6 +11,7 @@ print("There are", stones, "stones")
 #returns a number between 1 (included) and 4 (not included)
 computer_stones_taken = random.randrange(1, 4)
 
+
 # print("no loop")
 
 
