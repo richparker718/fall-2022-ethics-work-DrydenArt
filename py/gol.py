@@ -2,10 +2,18 @@
 # Elizabeth Rechtin
 # CSCI 77800 Fall 2022
 # collaborators: 
-# consulted: my gol.java from the programming class, Thinkcspy from runestone academy, Python Documentation site at docs.python.org,  and W3Schools.org
+# consulted: my gol.java from the programming class, Chapter 9 in Thinkcspy from runestone academy, Python Documentation site at docs.python.org,
 
-firstRow = ("X " + "X " + "X")
-secondRow = ("X " + "X " "X")
-thirdRow = ("X " + "X " + "X")
+firstRow = (chr(89)*3)
+secondRow = ("X" + "X" + "X")
+thirdRow = ("X" + "X" + "X")
+# print(ord("X"))
 
-print(firstRow, secondRow, thirdRow)
+if firstRow == "XXX":
+  print("yes")
+else: 
+  print("no")
+
+print(firstRow)
+print(secondRow)
+print(thirdRow)
