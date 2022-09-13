@@ -34,28 +34,42 @@ def countNeighbours(board1, r, c):
 
   for row in board1:
     for x in range (r, c):
-      if x < 0:
+      if x - 1 < 0: #top boundary
         continue
-        if x 
+        if x + 1 > len(board1): #bottom boundary
+          break
+          
+    for col in board1:
+      for x in range (r, c):
+        if x - 1 < 0: #left boundary
+          continue
+          if x + 1 > len(board): #right boundary
+
+    if r != row and c != col: # checks the square
+      continue
+      
+      if board1[r][c] == 'X':
+        livingCt = livingCt + 1
     
+  return livingCt
+
 
   # for row in board1:
-  #   if r < 0: #top boundary
-  #     continue
-  #     if r >= len(board1): #bottom boundary
+  #   if r - 1 < 0: #top boundary
+  #     
+  #     if r + 1 >= len(board1): #bottom boundary
   #       break
 
   # for col in board1:
-  #   if c < 0: #left boundary
+  #   if c - 1 < 0: #left boundary
   #     continue
-  #     if c >= len(board1[0]): #right boundary
+  #     if c + 1 >= len(board1[0]): #right boundary
   #       continue
           
-  # if r != row & c != col:
+  # if r != row and c != col:
   #   if board1[r][c] == 'X':
   #     livingCt = livingCt + 1
 
-  return livingCt
   
 
 
@@ -79,7 +93,7 @@ setCell(board1, 4, 3, 'X');
 printBoard(board1)
 
 
-  #rows = '-'
+ 
   
   
    
