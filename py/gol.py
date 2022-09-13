@@ -2,7 +2,7 @@
 # Elizabeth Rechtin
 # CSCI 77800 Fall 2022
 # collaborators: Marieke Thomas met with me over the weekend when I was stuck and she helped me sort out some of my errors. 
-# consulted: my gol.java from the programming class, Chapter 9 and 10 in Thinkcspy from runestone academy, Python Documentation site at docs.python.org, a huge breakthrough was going back to Chapter 6.1 and playing around with the active code window to see where things were going wrong.  
+# consulted: my gol.java from the programming class, Thinkcspy from runestone academy, Python Documentation site at docs.python.org,   
 
 
 def buildBoard(rows, cols):
@@ -33,20 +33,27 @@ def countNeighbours(board1, r, c):
   livingCt = 0
 
   for row in board1:
-    if r < 0: #top boundary
-      continue
-      if r >= len(board1): #bottom boundary
-        break
-
-  for col in board1:
-    if c < 0: #left boundary
-      continue
-      if c >= len(board1[0]): #right boundary
+    for x in range (r, c):
+      if x < 0:
         continue
+        if x 
+    
+
+  # for row in board1:
+  #   if r < 0: #top boundary
+  #     continue
+  #     if r >= len(board1): #bottom boundary
+  #       break
+
+  # for col in board1:
+  #   if c < 0: #left boundary
+  #     continue
+  #     if c >= len(board1[0]): #right boundary
+  #       continue
           
-  if r != row & c != col:
-    if board1[r][c] == 'X':
-      livingCt = livingCt + 1
+  # if r != row & c != col:
+  #   if board1[r][c] == 'X':
+  #     livingCt = livingCt + 1
 
   return livingCt
   
