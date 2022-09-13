@@ -5,6 +5,7 @@
 # consulted: my gol.java from the programming class, Thinkcspy from runestone academy, Python Documentation site at docs.python.org,   
 
 
+
 def buildBoard(rows, cols):
   
   board = [] #develop empty board/list
@@ -18,17 +19,20 @@ def buildBoard(rows, cols):
   return board
 
 
+#---------------------------------------------
 def setCell(board, r, c, char):
   board[r][c] = char
   return board
   
 
+#---------------------------------------------
 def printBoard(board):
   for row in board:
     print(row)
   print('\n')
       
 
+#----------------------------------------------
 def countNeighbours(board1, r, c):
   livingCt = 0
 
@@ -53,7 +57,7 @@ def countNeighbours(board1, r, c):
     
   return livingCt
 
-
+#---------------------------------------------
   # for row in board1:
   #   if r - 1 < 0: #top boundary
   #     
@@ -69,8 +73,7 @@ def countNeighbours(board1, r, c):
   # if r != row and c != col:
   #   if board1[r][c] == 'X':
   #     livingCt = livingCt + 1
-
-  
+#---------------------------------------------
 
 
 
