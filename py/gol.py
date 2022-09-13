@@ -36,23 +36,25 @@ def printBoard(board):
 def countNeighbours(board1, r, c):
   livingCt = 0
 
-  for row in board1:
-    for x in range (r, c):
-      if x - 1 < 0: #top boundary
-        continue
-        if x + 1 > len(board1): #bottom boundary
-          break
-          
-    for col in board1:
-      for x in range (r, c):
-        if x - 1 < 0: #left boundary
-          continue
-          if x + 1 > len(board): #right boundary
-
-    if r != row and c != col: # checks the square
+  
+  for i in range (r -1, r + 2):
+    if i - 1 < 0: #top boundary
       continue
+    if i + 1 > len(board1): #bottom boundary
+      continue
+        
+     
+    for j in range (c - 1, c + 2):
+      if j - 1 < 0: #left boundary
+        continue
+      if j + 1 > len(board): #right boundary
+        continue
+
+      if (r == i and c == j): # checks the square
+        continue
       
-      if board1[r][c] == 'X':
+      if board1[i][j] == 'X':
+        print(i, j)
         livingCt = livingCt + 1
     
   return livingCt
@@ -94,6 +96,7 @@ setCell(board1, 4, 0, 'X');
 setCell(board1, 4, 3, 'X');
 
 printBoard(board1)
+print(countNeighbours(board1, 0,0))
 
 
  
