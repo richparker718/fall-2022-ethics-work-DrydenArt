@@ -65,13 +65,13 @@ def countNeighbours(board1, r, c):
   #    (alive 'X', dead ' ')
 
 def getNextGenCell(board1, r, c):
-  nextGen = board[r][c]
+  nextGen = board[i][j]
   #checks the neighbors at r and c
   numNeighbours = countNeighbours(board1, r, c)
   dead = '-'
   alive = 'X'
   
-  if board[r][c] == alive:
+  if board[i][j] == alive:
     if numNeighbours == 2 or numNeighbours == 3:
       nextGen = alive
     else:
