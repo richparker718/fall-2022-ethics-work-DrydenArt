@@ -71,7 +71,7 @@ def getNextGenCell(board1, r, c):
   dead = '-'
   alive = 'X'
   
-  if board[i][j] == alive:
+  if board1[i][j] == alive:
     if numNeighbours == 2 or numNeighbours == 3:
       nextGen = alive
     else:
@@ -86,8 +86,8 @@ def getNextGenCell(board1, r, c):
   
 #---------------------------------------------
 def generateNextBoard(board1):
-  newBoard = newChar[len(board1)][len(board1[0])]
-  for i in len(board1): 
+  newBoard = [len(board1)]
+  for i in len(board1[0]): 
     for j in len(board1[0]):
       newBoard[i][j] = getNextGenCell(board1,i,j )
      
