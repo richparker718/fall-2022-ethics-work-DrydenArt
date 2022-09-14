@@ -65,13 +65,13 @@ def countNeighbours(board1, r, c):
   #    (alive 'X', dead ' ')
 
 def getNextGenCell(board1, r, c):
-  nextGen = board[i][j]
+  nextGen = board1
   #checks the neighbors at r and c
   numNeighbours = countNeighbours(board1, r, c)
   dead = '-'
   alive = 'X'
   
-  if board1[i][j] == alive:
+  if board1 == alive:
     if numNeighbours == 2 or numNeighbours == 3:
       nextGen = alive
     else:
@@ -87,9 +87,9 @@ def getNextGenCell(board1, r, c):
 #---------------------------------------------
 def generateNextBoard(board1):
   newBoard = [len(board1)]
-  for i in len(board1[0]): 
-    for j in len(board1[0]):
-      newBoard[i][j] = getNextGenCell(board1,i,j )
+  for i in range(len(board1)): 
+    for j in range(len(board1)):
+      newBoard = getNextGenCell(board1,i,j )
      
   return newBoard
 #---------------------------------------------
@@ -97,7 +97,7 @@ def generateNextBoard(board1):
 #test for buildBoard, first with '-', then blank        
 #print("This is the empty board: \n")
 #print(str(buildBoard(3, 5)))
-printBoard(buildBoard(3, 5))
+printBoard(buildBoard(5, 5))
 #test for setCell
 board1 = buildBoard(5, 5)
 # print("This is setCell: \n")
@@ -111,8 +111,9 @@ setCell(board1, 4, 0, 'X');
 setCell(board1, 4, 3, 'X');
 
 printBoard(board1)
-print(countNeighbours(board1, 2,2))
-print(generateNextBoard(board1))
+#print(countNeighbours(board1, 2,2))
+newBoard = generateNextBoard(board1);
+print(generateNextBoard(newBoard))
 
 
  
