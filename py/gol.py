@@ -85,8 +85,14 @@ def getNextGenCell(board1, r, c):
   return nextGen
   
 #---------------------------------------------
-
-
+def generateNextBoard(board1):
+  newBoard = newChar[len(board1)][len(board1[0])]
+  for i in len(board1): 
+    for j in len(board1[0]):
+      newBoard[i][j] = getNextGenCell(board1,i,j )
+     
+  return newBoard
+#---------------------------------------------
 
 #test for buildBoard, first with '-', then blank        
 #print("This is the empty board: \n")
@@ -106,6 +112,7 @@ setCell(board1, 4, 3, 'X');
 
 printBoard(board1)
 print(countNeighbours(board1, 2,2))
+print(generateNextBoard(board1))
 
 
  
