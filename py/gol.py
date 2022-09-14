@@ -60,6 +60,29 @@ def countNeighbours(board1, r, c):
   return livingCt
 
 #---------------------------------------------
+  #    precond: given a board and a cell
+  #    postcond: return next generation cell state based on CGOL rules
+  #    (alive 'X', dead ' ')
+
+def getNextGenCell(board1, r, c):
+  nextGen = board[r][c]
+  #checks the neighbors at r and c
+  numNeighbours = countNeighbours(board1, r, c)
+  dead = '-'
+  alive = 'X'
+  
+  if board[r][c] == alive:
+    if numNeighbours == 2 or numNeighbours == 3:
+      nextGen = alive
+    else:
+        nextGen = dead  
+  else:
+    if numNeighbours == 3:
+      nextGen = alive
+    else:
+      nextGen = dead
+      
+  return nextGen
   
 #---------------------------------------------
 
