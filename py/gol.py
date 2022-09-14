@@ -87,9 +87,11 @@ def getNextGenCell(board1, r, c):
 #---------------------------------------------
 def generateNextBoard(board1):
   newBoard = [len(board1)]
-  for i in range(len(board1)): 
+  for i in range(len(board1)):
+    board1.append([])
     for j in range(len(board1)):
-      newBoard = getNextGenCell(board1,i,j )
+      board1[i].append(newBoard)
+      newBoard = getNextGenCell(board1,i,j)
      
   return newBoard
 #---------------------------------------------
@@ -104,16 +106,16 @@ board1 = buildBoard(5, 5)
 setCell(board1, 0, 0, 'X')
 setCell(board1, 0, 1, 'X')
 setCell(board1, 1, 0, 'X')
-setCell(board1, 3, 2, 'X');
-setCell(board1, 3, 3, 'X');
-setCell(board1, 3, 4, 'X');
-setCell(board1, 4, 0, 'X');
-setCell(board1, 4, 3, 'X');
+setCell(board1, 3, 2, 'X')
+setCell(board1, 3, 3, 'X')
+setCell(board1, 3, 4, 'X')
+setCell(board1, 4, 0, 'X')
+setCell(board1, 4, 3, 'X')
 
 printBoard(board1)
 #print(countNeighbours(board1, 2,2))
-newBoard = generateNextBoard(board1);
-print(generateNextBoard(newBoard))
+newBoard = generateNextBoard(board1)
+print(newBoard)
 
 
  
