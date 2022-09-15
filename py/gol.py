@@ -1,7 +1,7 @@
 # gol.py
 # Elizabeth Rechtin
 # CSCI 77800 Fall 2022
-# collaborators: Marieke Thomas and Kiana Herr helped me with guidance, clarifying syntax and debugging 
+# collaborators: Marieke Thomas and Kiana Herr helped me with guidance, clarifying syntax and lots of debugging support.
 # consulted: my gol.java from the programming class, Thinkcspy from runestone academy, Python Documentation site at docs.python.org, random sites for error translations  
 
 
