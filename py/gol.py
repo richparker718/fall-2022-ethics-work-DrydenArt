@@ -96,7 +96,6 @@ def generateNextBoard(board1):
      
   return newBoard[i][j]
 #---------------------------------------------
-
 #test for buildBoard, first with '-', then blank        
 #print("This is the empty board: \n")
 #print(str(buildBoard(3, 5)))
@@ -112,12 +111,11 @@ setCell(board1, 3, 3, 'X')
 setCell(board1, 3, 4, 'X')
 setCell(board1, 4, 0, 'X')
 setCell(board1, 4, 3, 'X')
-
 printBoard(board1)
 #print(countNeighbours(board1, 2,2))
 newBoard = []
 newBoard = generateNextBoard(board1)
-print(newBoard)
+print(generateNextBoard(newBoard))
 
 
  
