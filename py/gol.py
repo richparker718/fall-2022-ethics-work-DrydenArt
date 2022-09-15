@@ -1,8 +1,8 @@
 # gol.py
 # Elizabeth Rechtin
 # CSCI 77800 Fall 2022
-# collaborators: Marieke Thomas and Kiana Herr helped with guidance and debugging 
-# consulted: my gol.java from the programming class, Thinkcspy from runestone academy, Python Documentation site at docs.python.org,   
+# collaborators: Marieke Thomas and Kiana Herr helped me with guidance, clarifying syntax and debugging 
+# consulted: my gol.java from the programming class, Thinkcspy from runestone academy, Python Documentation site at docs.python.org, random sites for error translations  
 
 
 
@@ -110,7 +110,7 @@ setCell(board1, 4, 0, 'X')
 setCell(board1, 4, 3, 'X')
 printBoard(board1)
 #print(countNeighbours(board1, 2,2))
-#newBoard = []
+
 newBoard = generateNextBoard(board1)
 printBoard(generateNextBoard(newBoard))
 
