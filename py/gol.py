@@ -87,15 +87,11 @@ def getNextGenCell(board1, r, c):
 #---------------------------------------------
 def generateNextBoard(board1):
   newBoard = board1
-  #newBoard = buildBoard(len(board1))
-  #nextGen = board1[r][c]
   for i in range(len(board1)):
-    #board1.append([])
     for j in range(len(board1)):
-      #board1[i].append(newBoard)
       newBoard[i][j] = [getNextGenCell(board1,i,j)]
      
-  return newBoard[i][j]
+  return newBoard
 #---------------------------------------------
 #test for buildBoard, first with '-', then blank        
 #print("This is the empty board: \n")
@@ -118,33 +114,3 @@ newBoard = []
 newBoard = generateNextBoard(board1)
 print(generateNextBoard(newBoard))
 
-
- 
-  
-  
-   
-
-#def applyRules(ch):
-#  newCh = ""
- # if ch == "X":
-
-
-    
-
-#firstRow = (chr(89)*3)
-#secondRow = ("X" + "X" + "X")
-#thirdRow = ("X" + "X" + "X")
-# print(ord("X"))
-
-#if firstRow == "XXX":
-  #print("yes")
-#else: 
-  #print("no")
-
-#print(firstRow)
-#print(secondRow)
-#print(thirdRow)
-
-#print(chr(2777))
-
-#print(buildBoard(3, 3))
