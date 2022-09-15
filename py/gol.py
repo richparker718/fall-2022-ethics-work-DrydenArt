@@ -86,7 +86,8 @@ def getNextGenCell(board1, r, c):
   
 #---------------------------------------------
 def generateNextBoard(board1):
-  newBoard = buildBoard(len(board1))
+  newBoard = board1
+  #newBoard = buildBoard(len(board1))
   #nextGen = board1[r][c]
   for i in range(len(board1)):
     #board1.append([])
