@@ -112,5 +112,6 @@ printBoard(board1)
 #print(countNeighbours(board1, 2,2))
 
 newBoard = generateNextBoard(board1)
+printBoard(newBoard)
 printBoard(generateNextBoard(newBoard))
 
