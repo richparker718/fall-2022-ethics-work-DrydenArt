@@ -1,3 +1,11 @@
+Weekly Ethicacy
+Elizabeth Rechtin and Rich Parker
+CSCI 77800 Fall 2022
+
+Artificial Intelligence in the Arts
+
+Background:  Advances in technology have always impacted the Arts.  Computers and the software developed for them have impacted Visual and Musical Arts since their creation and have been adopted by artists and the wider art world over time [link.  https://www.bbvaopenmind.com/en/articles/artificial-intelligence-and-the-arts-toward-computational-creativity/ 
+
 Cons:
 Appropriation/Theft of Compensation/Perpetuating and Embedding Racism, Double Standard (Real people in jail for lyrics vs. white execs of AI company untouchable), Lack of Real Change (white execs not sincere/mocking the severity of their actions)
 Resources: 
