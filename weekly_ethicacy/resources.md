@@ -1,12 +1,13 @@
-Weekly Ethicacy
-Elizabeth Rechtin and Rich Parker
-CSCI 77800 Fall 2022
+Weekly Ethicacy<br>
+Elizabeth Rechtin and Rich Parker<br>
+CSCI 77800 Fall 2022<br>
 
-Artificial Intelligence in the Arts
+# Artificial Intelligence in the Arts
 
-Background:  Advances in technology have always impacted the Arts.  Computers and the software developed for them have impacted Visual and Musical Arts since their creation and have been adopted by artists and the wider art world over time [link.  https://www.bbvaopenmind.com/en/articles/artificial-intelligence-and-the-arts-toward-computational-creativity/ 
+## Background:  
+Advances in technology have always impacted the Arts.  Computers and the software developed for them have impacted both the visual and musical Arts since their creation and have been adopted by artists and the wider art world over time [link](https://www.bbvaopenmind.com/en/articles/artificial-intelligence-and-the-arts-toward-computational-creativity/). However, trends in artificial intellegence are beginning to challenge the concept that creativity and artistry are uniquely human.  Is artificial intelligence just another tool for creating that will be accepted over time, or will artificial intelligence threaten the future of artists and their livelihoods? Is AI good for the arts, or bad for the arts? 
 
-Cons:
+AI Cons:
 Appropriation/Theft of Compensation/Perpetuating and Embedding Racism, Double Standard (Real people in jail for lyrics vs. white execs of AI company untouchable), Lack of Real Change (white execs not sincere/mocking the severity of their actions)
 Resources: 
 NYT article on FN Meka: https://www.nytimes.com/2022/08/23/arts/music/fn-meka-dropped-capitol-records.html
