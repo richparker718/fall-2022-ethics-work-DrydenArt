@@ -1,6 +1,7 @@
 Weekly Ethicacy<br>
 Elizabeth Rechtin and Rich Parker<br>
 CSCI 77800 Fall 2022<br>
+[Slides](https://docs.google.com/presentation/d/1VjvflBzGvOyXl75Jo8FLHWPcXjPY4cfwBQLtm_GLxoY/edit?usp=sharing)
 
 # Artificial Intelligence in the Arts
 
