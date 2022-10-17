@@ -8,7 +8,7 @@ CSCI 77800 Fall 2022<br>
 ## Background:  
 Advances in technology have always impacted the Arts.  Computers and the software developed for them have impacted both the visual and musical Arts since their creation and have been adopted by artists and the wider art world over time [link](https://www.bbvaopenmind.com/en/articles/artificial-intelligence-and-the-arts-toward-computational-creativity/). However, trends in artificial intellegence are beginning to challenge the concept that creativity and artistry are uniquely human.  Is artificial intelligence just another tool for creating that will be accepted over time, or will artificial intelligence threaten the future of artists and their livelihoods? Is AI good for the arts, or bad for the arts? 
 
-## AI in the Arts is a BAD THING:
+## When AI in the Arts is a BAD THING:
 - Large companies like Factory New in collaboration with Capitol records abusing their power through cultural appropriation and theft of intellectual property in developing musical avatars for consumption. Resource: NYT article on FN Meka: https://www.nytimes.com/2022/08/23/arts/music/fn-meka-dropped-capitol-records.html.
 - In the avatar world using AI, a scenario is created where groups of people may be profiting off of the ethnic group an avatar represents without being part of that group themselves, as outlined by WAYE founder, a company that educates young people about technology, Sinead Bovell.  This is the case with both Factory New and Capitol records where white exectutive profit off of the FN Meka rapper's avatar. 
 - Unregulated AI in the arts can undermine artists through exclusionary practices and uncompensated work.  In the case of FN Meka, rapper Kyle The Hooligan was initially consulted in the creation of FN Meka.  He provided lyrics as well as the voice for the character, but wasn't compensated for his work or his intellectual property: https://www.revolt.tv/article/2022-08-29/188979/kyle-the-hooligan-say-my-name-video/
@@ -25,7 +25,7 @@ Advances in technology have always impacted the Arts.  Computers and the softwar
 - Environmentally, AI image processing demands an enormous amount of energy consumption to the extent where a person couldn't run this technology currently from a home computer.  As this technology advances, we will see issues arise around energy demands of this type of image generation. Resource: https://computingwithinlimits.org/2022/papers/limits22-final-Jaaskelainen.pdf
 
 
-## AI in the Arts is a GOOD THING:
+## When AI in the Arts is a GOOD THING:
 Pros:
 Pushback from Watchdogs (successful demands, social awareness), Social Backlash (pressure on companies to drop/apologize), Major Company Response (cancellation, apology)
 Resources: 
