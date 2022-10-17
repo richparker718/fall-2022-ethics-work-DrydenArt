@@ -49,3 +49,10 @@ Examples:
 - The voice behind FN Meka speaks out: https://www.revolt.tv/article/2022-09-01/189464/the-voice-behind-fn-meka-speaks-out-against-factory-new-brandon-le/
 - How does AI create images from prompts?  Watch this video to learn the evolution of this software: https://youtu.be/SVcsDDABEkM
 - Twitter Backlash: https://twitter.com/GenelJumalon/status/1564651635602853889
+- Have I Been Trained?  A resource for artists to see if their work has been scraped into AI systems' databases: https://haveibeentrained.com/
+- What do artists have to say about AI? https://www.youtube.com/watch?v=sFBfrZ-N3G4&t=0s
+- The Creativity of Text to Image Generation by Jonas Oppenlaender: https://arxiv.org/pdf/2206.02904.pdf
+- Welcome to the Dawn of AI Art, by John Lepore: https://www.schoolofmotion.com/blog/welcome-to-the-dawn-of-ai-art
+- AI is Blurring the Definition of Artist, by Ahmed Elgammal: https://www.americanscientist.org/article/ai-is-blurring-the-definition-of-artist
+- Artificial Intelligence and the Arts: Toward Computational Creativity, by Ramón López de Mántaras: https://www.bbvaopenmind.com/en/articles/artificial-intelligence-and-the-arts-toward-computational-creativity/
+- When Photography Wasn't Art, by Jordan G. Teicher: https://daily.jstor.org/when-photography-was-not-art/
