@@ -23,11 +23,7 @@ Advances in technology have always impacted the Arts.  Computers and the softwar
 - Environmentally, AI image processing demands an enormous amount of energy consumption to the extent where a person couldn't run this technology currently from a home computer.  As this technology advances, we will see issues arise around energy demands of this type of image generation. Resource: https://computingwithinlimits.org/2022/papers/limits22-final-Jaaskelainen.pdf
 
 
-
-
-
-
-
+## AI in the Arts is a GOOD THING:
 Pros:
 Pushback from Watchdogs (successful demands, social awareness), Social Backlash (pressure on companies to drop/apologize), Major Company Response (cancellation, apology)
 Resources: 
@@ -36,9 +32,9 @@ Industry Blackout: https://linktr.ee/industryblackout
 Twitter posts in reponse to FN Meka: https://www.revolt.tv/article/2022-08-23/187945/black-twitter-reacts-to-ai-powered-rapper-fn-mekas-use-of-the-n-word/
 Capitol drops AI rapper FN Meka after backlash (with quote from Industry Blackout): https://www.revolt.tv/article/2022-08-23/187992/capitol-records-drops-animated-rapper-fn-meka/
 
-
 Pros:
-helps to evolve how we see, respond to and consume art, allows for anyone to enter the art world (traditional and digital/new technologies),Social media and watchdog organizations are able to keep major companies accountable, and help artists have a voice when they engage in racism/sexism/corrupt practices
+helps to evolve how we see, respond to and consume art, allows for anyone to enter the art world (traditional and digital/new technologies),
+Social media and watchdog organizations are able to keep major companies accountable, and help artists have a voice when they engage in racism/sexism/corrupt practices
 Examples: 
 -Industry Blackout's strong and effective response
 -social media empowers humanity to play the role of watchdog against abuses of power from companies or individuals
