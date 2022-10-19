@@ -56,3 +56,8 @@ Examples:
 - AI is Blurring the Definition of Artist, by Ahmed Elgammal: https://www.americanscientist.org/article/ai-is-blurring-the-definition-of-artist
 - Artificial Intelligence and the Arts: Toward Computational Creativity, by Ramón López de Mántaras: https://www.bbvaopenmind.com/en/articles/artificial-intelligence-and-the-arts-toward-computational-creativity/
 - When Photography Wasn't Art, by Jordan G. Teicher: https://daily.jstor.org/when-photography-was-not-art/
+- The first recording of computer-generated music was created in 1951 by the computer scientist Alan Turing. https://youtu.be/xLwjz0UR5_A
+- In 1957, programmers used the ILLIAC computer to create the “Illiac Suite” https://youtu.be/n0njBFLQSk8
+- https://aiva.ai/ - allows users to compose ai assisted music
+- https://www.wombo.art/ - allows users to create ai visual artwork
+- https://www.jarvis-lyrics.com/ - allows users to generate ai lyrics
